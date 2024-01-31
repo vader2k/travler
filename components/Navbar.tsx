@@ -27,8 +27,18 @@ const Navbar = () => {
             <Button 
                 type ='button'
                 title = "Login"
-                icon = "/user.svg"
-                style= 'btn_dark_green' 
+                icon = "user.svg"
+                variant="btn_dark_green"
+            />
+        </div>
+
+        <div>
+            <Image
+                src="menu.svg"
+                alt="menu"
+                width={32}
+                height={32}
+                className="inline-block cursor-pointer lg:hidden"
             />
         </div>
     </nav>
