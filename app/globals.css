@@ -13,6 +13,7 @@
 
 body {
   font-family: Inter;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
